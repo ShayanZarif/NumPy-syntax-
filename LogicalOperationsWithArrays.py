@@ -1,5 +1,5 @@
 import numpy as np
-
+#np.genfromtxt('file.csv', delimiter=',')
 porridge = np.array([79, 65, 50, 63, 56, 90, 85, 98, 79, 51])
 cold = porridge[porridge<60]
 hot = porridge[porridge>80]
